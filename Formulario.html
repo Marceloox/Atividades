@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Exemplo de Formulário</h1>
+    </header>
+
+    <form>
+        <fieldset>
+            <legend>Identificação:</legend>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" size="50px" required placeholder="Escreva seu nome completo">
+                <br><br>
+
+                <p>Onde você mora</p>
+                <input type="radio" id="Cidade">
+                <label for="Cidade">Cidade</label><br>
+                <input type="radio" id="Interior">
+                <label for="Interior">Interior</label>
+                <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Informações</legend>
+                <p>Qual é o seu meio de transporte?</p>
+                <input type="checkbox" id="Metrô">
+                <label for="Metrô">Metrô</label><br>
+                <input type="checkbox" id="Ônibus">
+                <label for="Ônibus">Ônibus</label><br><br>
+
+                <label for="">Selecione o seu time:</label>
+
+                <select name="" id="">
+                    <option value="Palmeiras">Palmeiras</option>
+                    <option value="São Paulo">São Paulo</option>            
+                    <option value="Santos">Santos</option>            
+                    <option value="Corinthians">Corinthians</option>           
+                </select><br><br>
+        </fieldset>
+        <p>Sugestões, elogios e críticas:</p>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+            
+        <input type="submit" value="cadastrar">
+    </form>         
+</body>
+</html>
